@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Apply Centering",
+  "description": "Apply reasonable centering styles to sites with full width text",
+  "version": "1.0",
+  "background" : {
+    "service_worker": "code.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
