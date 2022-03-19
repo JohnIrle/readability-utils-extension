@@ -5,7 +5,15 @@
     </head>
     <body>
         <button id="centerButton">Center</button>
-        <button id="lineHeightButton">Line Height</button>
+        <div>
+            <label for="lineHeight" id="lineHeightLabel">Line Height: 1.5</label>
+            <input type="range" id="lineHeight" name="lineHeight"
+                   step=".1"
+                   value="1.5" min="1.4" max="1.7"
+            >
+            <label for="applyLineHeight">Apply</label>
+            <input type="checkbox" id="applyLineHeight" name="applyLineHeight"/>
+        </div>
         <script src="code.js"></script>
     </body>
 </html>
