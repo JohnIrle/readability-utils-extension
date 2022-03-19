@@ -1,0 +1,28 @@
+button {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    margin: 0.5rem 1rem;
+}
+
+button:hover {
+    background-color: rgba(198, 198, 198, 0.78);
+}
+
+button.current {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}
+
+.apply {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.group {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #c6c6c6;
+}

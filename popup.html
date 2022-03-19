@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="button.css">
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <button id="centerButton">Center</button>
-        <button id="lineHeightButton">Line Height</button>
+        <div class="group">
+            <label for="width" id="widthLabel">Line Height: 100%</label>
+            <input
+                type="range"
+                id="width"
+                name="width"
+                step="5"
+                value="100"
+                min="50"
+                max="100"
+            />
+        </div>
+        <div class="group">
+            <label for="lineHeight" id="lineHeightLabel"
+                >Line Height: 1.5</label
+            >
+            <input
+                type="range"
+                id="lineHeight"
+                name="lineHeight"
+                step=".1"
+                value="1.5"
+                min="1"
+                max="2"
+            />
+            <div class="apply">
+                <label for="applyLineHeight">Apply</label>
+                <input
+                    type="checkbox"
+                    id="applyLineHeight"
+                    name="applyLineHeight"
+                />
+            </div>
+        </div>
         <script src="code.js"></script>
     </body>
 </html>
