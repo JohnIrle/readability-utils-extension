@@ -43,7 +43,7 @@ lineHeight.addEventListener("input", async () => {
 });
 
 function applyWidth(value) {
-    document.body.style.maxWidth = `${value}%`;
+    document.body.style.width = `${value}%`;
     document.body.style.margin = "0 auto";
 }
 
