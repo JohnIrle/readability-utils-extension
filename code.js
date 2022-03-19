@@ -1,4 +1,4 @@
-let centerButton = document.getElementById("centerButton")
+let centerButton = document.getElementById("centerButton");
 
 centerButton.addEventListener("click", async() => {
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
